@@ -1,0 +1,10 @@
+@import url('https://fonts.googleapis.com/css2?family=Sedgwick+Ave+Display&family=Space+Mono&display=swap');
+
+
+.titlename {
+  font-family: 'Sedgwick Ave Display', cursive;
+  text-align: left;
+  font-size: xxx-large;
+  padding-left: 20px;
+  padding-top: 20px;
+}

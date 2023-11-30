@@ -1,0 +1,15 @@
+<div class="flippable-card" [ngClass]="{'flipped': isFlipped}">
+  <div (click)="goToLink(spotifyURL)" class="card-front">
+    <div class="card-content">
+      <div class="card-content">
+        <img class="img-card" [src]=cardImageURL alt="Image unavailable">
+        <div class="card-text">{{ cardContent }} - {{ artistName }}</div>
+      </div>
+
+    </div>
+
+  </div>
+  <div class="card-back">
+    {{ cardContentback }}
+  </div>
+</div>

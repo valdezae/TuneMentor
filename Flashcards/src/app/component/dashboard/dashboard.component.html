@@ -1,0 +1,25 @@
+<h1 class="titlename">TuneMentor</h1>
+<div class="input-container">
+  <input type="text" placeholder="Enter the artist id here" [(ngModel)]="seedArtist">
+  <input type="text" placeholder="Enter the track id here" [(ngModel)]="seedTrack">
+  <button (click)="enviar()" [disabled]="!flipCardsFlag">Show Recommendations</button>
+  <button (click)="getRecommendationsShow()">Generate Recommendations</button>
+</div>
+
+<div class="text-hint">Hint: you can get both the artist id and the track id from the address bar by looking them up in Spotify</div>
+
+<div class="cards-container">
+  <app-flippable-card></app-flippable-card>
+  <app-flippable-card></app-flippable-card>
+  <app-flippable-card></app-flippable-card>
+  <app-flippable-card></app-flippable-card>
+  <app-flippable-card></app-flippable-card>
+  <app-flippable-card></app-flippable-card>
+  <app-flippable-card></app-flippable-card>
+  <app-flippable-card></app-flippable-card>
+  <app-flippable-card></app-flippable-card>
+  <app-flippable-card></app-flippable-card>
+
+</div>
+
+

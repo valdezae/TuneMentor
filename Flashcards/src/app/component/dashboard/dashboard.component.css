@@ -1,0 +1,102 @@
+@import url('https://fonts.googleapis.com/css2?family=Sedgwick+Ave+Display&family=Space+Mono&display=swap');
+
+
+.titlename {
+  font-family: 'Sedgwick Ave Display', cursive;
+  text-align: left;
+  font-size: xxx-large;
+  padding-left: 20px;
+  padding-top: 20px;
+}
+
+.text-hint {
+  color: white;
+  font-family: 'Montserrat', sans-serif;
+  background: #010203;
+  padding-left: 50px;
+}
+
+.text-lookup {
+  color: white;
+  font-family: 'Montserrat', sans-serif;
+  background: #010203;
+  text-align: center;
+  padding-top: 30px;
+}
+
+.cards-container {
+  display: flex;
+  justify-content: space-evenly;
+  flex-wrap: wrap;
+  background: #010203;
+}
+.img-card {
+  width: 50px;
+  height: 50px;
+}
+
+.input-container {
+  margin-top: 20px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  background: #010203;
+}
+
+app-flippable-card {
+  margin-right: 20px;
+  margin-top: 20px;
+  padding-left: 8px;
+  margin-left: 20px;
+  padding-right: 8px;
+  padding-top: 10px;
+}
+
+input[type="text"] {
+  width: 400px;
+  height: 40px;
+  font-size: 16px;
+  padding: 5px;
+  background: #2a2a2a;
+  color: #ffffff !important;
+  border-radius: 10px;
+  border-color: transparent;
+  font-family: 'Montserrat', sans-serif;
+}
+
+input[type="text"]:focus {
+  width: 400px;
+  height: 40px;
+  font-size: 16px;
+  padding: 5px;
+  border: 2px solid #ffffff;
+  border-radius: 10px;
+  background: #2a2a2a;
+  color: #ffffff;
+  outline: none !important;
+}
+
+
+button {
+  width: 170px;
+  height: 60px;
+  font-size: 16px;
+  background-color: #9c1cb9; /* Customize button background color. */
+  color: white;
+  border: none;
+  border-radius: 10px;
+  cursor: pointer;
+  font-family: 'Montserrat', sans-serif;
+}
+
+button:disabled {
+  width: 170px;
+  height: 60px;
+  font-size: 16px;
+  background-color: #2a2a2a; /* Customize button background color. */
+  color: grey;
+  border: none;
+  border-radius: 10px;
+  cursor: pointer;
+  font-family: 'Montserrat', sans-serif;
+}
